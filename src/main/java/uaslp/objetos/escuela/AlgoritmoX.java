@@ -14,11 +14,11 @@ public class AlgoritmoX {
         this.dependencia3 = dependencia3;
     }
 
-    public void algoritmoACubrir(int a, int b, String c){
+    public void algoritmoACubrir(int a, int b, String c) {
 
-        if(a == b){
+        if (a == b) {
             dependencia1.save(c);
-        } else if(a < b){
+        } else if (a < b) {
             dependencia2.print(a, c);
         } else {
             dependencia3.send(a, b);
